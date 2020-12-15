@@ -177,12 +177,18 @@ li {
 #contact-button {
   background-color: rgb(244, 121, 34);
   color: white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 #resume-button {
   color: rgb(244, 121, 34);
   border: 1px solid rgb(244, 121, 34);
   border: radius 10;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .page-buttons {
