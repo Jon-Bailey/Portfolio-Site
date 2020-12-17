@@ -1,3 +1,6 @@
+$orange:rgb(244, 121, 34);
+$background-gray:rgb(70, 70, 70);
+
 * {
   font-family: poppins;
   margin: 0;
@@ -7,7 +10,7 @@
 
 .background {
   padding: 20px;
-  background-color: rgb(70, 70, 70);
+  background-color: $background-gray;
 }
 
 .border-container {
@@ -23,13 +26,14 @@
   height: auto;
 }
 
-.page-buttons a {
-  color:white;
-  text-decoration:none;
-}
-
-.page-buttons a:hover {
-  color:rgb(70, 70, 70);
+.page-buttons {
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $background-gray;
+  }
 }
 
 .main {
@@ -44,31 +48,31 @@
   color: black;
   width: 100;
   padding: 100px;
-}
 
-.logos-section p {
-  display: flex;
+  p {
+    display: flex;
   justify-content: center;
+  }
 }
 
 p {
   color: rgb(107, 107, 107);
 }
 
-.logo img {
-  min-width: 50px;
-}
-
 .logo {
   padding-top: 10px;
   padding-bottom: 10px;
+
+  img{
+    min-width: 50px;
+  }
 }
 
 #project {
   width: 250px;
   height: 250px;
   box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.1);
-  background-color: rgb(244, 121, 34);
+  background-color: $orange;
 }
 
 .card-image {
@@ -76,8 +80,10 @@ p {
   height: 100%;
 }
 
-span img {
-  width: 50%;
+span {
+  img {
+    width: 50%;
+  }
 }
 
 .heading {
@@ -94,34 +100,33 @@ span img {
   margin-bottom: 60px;
 }
 
-#hero-text h1 {
-  font-size: 2.5rem;
-}
-
-#icons-div div {
-  display: inline;
-  margin: 10px;
-}
-
-#icons-div a {
-  text-decoration: none;
-  color: inherit;
-  /*text-decoration: underline;*/
-  margin-right: 10px;
-}
-
-#icons-div a:hover {
-  color:rgb(244, 121, 34);
-}
-
-#icons-div img {
-  max-width: 30px;
+#hero-text {
+  h1 {
+    font-size: 2.5rem;
+  }
 }
 
 #icons-div {
   display: flex;
   justify-content: right;
   align-items: center;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    /*text-decoration: underline;*/
+    margin-right: 10px;
+  }
+  a:hover {
+    color: $orange;
+  }
+  div {
+    display: inline;
+    margin: 10px;
+  }
+  img {
+    max-width: 30px;
+  }
 }
 
 #emphasis {
@@ -135,25 +140,24 @@ span img {
   max-width: 100;
   padding-left: 30px;
   padding-top: 30px;
-  background-color: rgb(70, 70, 70);
-}
-.footer h3 {
-  color:white;
-}
+  background-color: $background-gray;
 
-.footer p {
-  text-align: center;
-  font-size: small;
+  h3 {
+    color: white;
+  }
+  p {
+    text-align: center;
+    font-size: small;
+  }
+  a {
+    color: rgb(138, 138, 138);
+    font-size: small;
+    text-decoration: underline;
+  }
 }
 
 li {
   list-style: none;
-}
-
-.footer a {
-  color: rgb(138, 138, 138);
-  font-size: small;
-  text-decoration: underline;
 }
 
 .project-page {
@@ -165,7 +169,7 @@ li {
 }
 
 #project-photo {
-  background-color: rgb(244, 121, 34);
+  background-color: $orange;
   height: auto;
   width: auto;
 }
@@ -196,19 +200,19 @@ li {
     margin: 20px;
   }
   #project-photo {
-    width:90vw;
-    height:auto;
+    width: 90vw;
+    height: auto;
   }
   #hero-text h1 {
-    font-size:2rem;
+    font-size: 2rem;
   }
   #hero-text {
-    margin-bottom:50px;
+    margin-bottom: 50px;
   }
 }
 
 #contact-button {
-  background-color: rgb(244, 121, 34);
+  background-color: $orange;
   color: white;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -216,8 +220,8 @@ li {
 }
 
 #resume-button {
-  color: rgb(244, 121, 34);
-  border: 1px solid rgb(244, 121, 34);
+  color: $orange;
+  border: 1px solid $orange;
   border: radius 10;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -225,9 +229,9 @@ li {
 }
 
 .page-buttons {
-  background-color: rgb(244, 121, 34);
+  background-color: $orange;
   width: 100;
-  text-decoration-style:none;
+  text-decoration-style: none;
 }
 
 .page-button {
@@ -236,7 +240,5 @@ li {
 
 .navigation {
   background-color: white;
-  padding:0;
+  padding: 0;
 }
-
-
