@@ -141,8 +141,7 @@ span img {
 
 nav {
   background-color: white;
-  -webkit-box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.1);
+  border-bottom: 1.5px solid #464646;
 }
 
 nav .container-fluid {
@@ -158,11 +157,6 @@ li a {
 
 li a:hover {
   color: #f47922;
-}
-
-#emphasis {
-  /*color: green;*/
-  font-weight: 700;
 }
 
 .footer {
@@ -290,7 +284,7 @@ li {
   -moz-appearance: none;
   appearance: none;
   border: none;
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: 5px;
 }
 /*# sourceMappingURL=styles.css.map */
