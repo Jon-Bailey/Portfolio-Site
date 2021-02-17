@@ -1,5 +1,5 @@
 * {
-  font-family: poppins;
+  font-family: "poppins";
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -111,7 +111,9 @@ span img {
 }
 
 #hero-text h1 {
-  font-size: 3rem;
+  font-size: 5rem;
+  line-height: 90%;
+  font-family: "Bebas Neue", cursive;
 }
 
 #icons-div {
@@ -211,6 +213,11 @@ li {
      object-fit: contain;
 }
 
+#project-text h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+}
+
 .btn-secondary {
   min-width: 75px;
   max-height: 50px;
@@ -218,10 +225,12 @@ li {
 
 @media only screen and (max-width: 768px) {
   #hero-text h1 {
-    font-size: 3rem;
+    font-size: 5rem;
+    text-align: center;
   }
   #hero-text h3 {
     font-size: 1.5rem;
+    text-align: center;
   }
   #logos {
     max-width: 300px;
@@ -240,12 +249,19 @@ li {
     width: 90vw;
     height: auto;
   }
-  #hero-text h1 {
-    font-size: 2rem;
-  }
   #hero-text {
     margin-bottom: 50px;
-    margin-left: 20px;
+  }
+  .hero-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero-buttons a {
+    margin-left: 1rem;
   }
 }
 
