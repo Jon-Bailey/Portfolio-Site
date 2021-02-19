@@ -217,7 +217,7 @@ li {
 
 @media only screen and (max-width: 768px) {
   #hero-text h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
   }
   #hero-text h3 {
@@ -243,6 +243,7 @@ li {
   }
   #hero-text {
     margin-bottom: 50px;
+    margin: auto;
   }
   .hero-buttons {
     display: flex;
