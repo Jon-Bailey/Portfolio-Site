@@ -13,8 +13,10 @@
 
 .border-container {
   border-radius: 25px;
-  padding-top: 20px;
   background-color: white;
+  background-image: url("img/background-pattern.png");
+  background-position-y: 90px;
+  background-repeat: repeat;
 }
 
 .project-container {
@@ -144,10 +146,12 @@ span img {
 nav {
   background-color: white;
   border-bottom: 1.5px solid #464646;
+  border-radius: 25px 25px 0 0;
 }
 
 nav .container-fluid {
   margin-bottom: 10px;
+  padding-top: 10px;
 }
 
 li a {
