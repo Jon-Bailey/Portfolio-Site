@@ -16,9 +16,9 @@ $background-gray: rgb(70, 70, 70);
 .border-container {
   border-radius: 25px;
   background-color: white;
-  background-image: url("img/background-pattern.png");
-  background-position-y: 90px;
+  background-image: url("img/background-pattern2.png");
   background-repeat: repeat;
+  background-size: 20%;
 }
 
 .project-container {
@@ -110,6 +110,9 @@ span {
     font-size: 5rem;
     line-height: 90%;
     font-family: "Bebas Neue", cursive;
+  }
+  h3 {
+    margin-bottom: 20px;
   }
 }
 

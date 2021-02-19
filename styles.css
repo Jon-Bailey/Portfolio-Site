@@ -14,9 +14,9 @@
 .border-container {
   border-radius: 25px;
   background-color: white;
-  background-image: url("img/background-pattern.png");
-  background-position-y: 90px;
+  background-image: url("img/background-pattern2.png");
   background-repeat: repeat;
+  background-size: 20%;
 }
 
 .project-container {
@@ -116,6 +116,10 @@ span img {
   font-size: 5rem;
   line-height: 90%;
   font-family: "Bebas Neue", cursive;
+}
+
+#hero-text h3 {
+  margin-bottom: 20px;
 }
 
 #icons-div {
