@@ -70,15 +70,13 @@ p {
   min-width: 50px;
 }
 
-#project {
+/*#project {
   width: 250px;
   height: 250px;
-  -webkit-box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.1);
   margin: 0;
   padding: 0;
-}
-
+}*/
 .card-image {
   -o-object-fit: cover;
      object-fit: cover;
@@ -91,12 +89,6 @@ span img {
 }
 
 .heading {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   color: #7c7c7c;
 }
 
@@ -174,6 +166,7 @@ li a:hover {
   margin: auto;
   max-width: 100;
   padding-left: 30px;
+  padding-right: 30px;
   padding-top: 30px;
   background-color: #464646;
 }
@@ -272,6 +265,11 @@ li {
   .hero-buttons a {
     margin-left: 1rem;
   }
+  #cert-div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 #contact-button {
@@ -311,5 +309,16 @@ li {
   border: none;
   padding: 0.5rem;
   border-radius: 5px;
+}
+
+#cert-section {
+  background-color: white;
+  padding: 70px 30px 70px 30px;
+}
+
+#cert-section #certificate {
+  max-width: 300px;
+  -webkit-box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.589);
+          box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.589);
 }
 /*# sourceMappingURL=styles.css.map */

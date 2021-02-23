@@ -71,13 +71,13 @@ p {
   }
 }
 
-#project {
+/*#project {
   width: 250px;
   height: 250px;
   box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.1);
   margin: 0;
   padding: 0;
-}
+}*/
 
 .card-image {
   object-fit: cover;
@@ -92,8 +92,6 @@ span {
 }
 
 .heading {
-  display: flex;
-  justify-content: center;
   color: rgb(124, 124, 124);
 }
 
@@ -165,6 +163,7 @@ li {
   margin: auto;
   max-width: 100;
   padding-left: 30px;
+  padding-right:30px;
   padding-top: 30px;
   background-color: $background-gray;
 
@@ -256,6 +255,9 @@ li {
       margin-left: 1rem;
     }
   }
+  #cert-div {
+    justify-content: center;
+  }
 }
 
 #contact-button {
@@ -294,4 +296,14 @@ li {
   border: none;
   padding: 0.5rem;
   border-radius: 5px;
+}
+
+#cert-section {
+  background-color: white;
+  padding: 70px 30px 70px 30px;
+
+  #certificate {
+    max-width: 300px;
+    box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.589);
+  }
 }
