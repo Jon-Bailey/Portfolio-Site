@@ -176,6 +176,8 @@ li a:hover {
 }
 
 .footer h3 {
+  font-size: smaller;
+  font-weight: bold;
   color: white;
 }
 
@@ -320,5 +322,9 @@ li {
   max-width: 300px;
   -webkit-box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.589);
           box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.589);
+}
+
+.card-title {
+  font-weight: bold;
 }
 /*# sourceMappingURL=styles.css.map */
