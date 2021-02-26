@@ -221,12 +221,20 @@ li {
 }
 
 @media only screen and (max-width: 768px) {
+  #navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   #hero-text h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
   }
   #hero-text h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: center;
   }
   #logos {
@@ -238,9 +246,6 @@ li {
   }
   .icons {
     margin-top: 60px;
-  }
-  .navigation {
-    margin: 20px;
   }
   #project-photo {
     width: 90vw;
