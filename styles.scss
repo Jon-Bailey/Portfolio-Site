@@ -63,7 +63,7 @@ $background-gray: rgb(70, 70, 70);
 
 p {
   color: rgb(107, 107, 107);
-  line-height:1.5rem;
+  line-height: 1.5rem;
 }
 
 .logo {
@@ -71,14 +71,6 @@ p {
     min-width: 50px;
   }
 }
-
-/*#project {
-  width: 250px;
-  height: 250px;
-  box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.1);
-  margin: 0;
-  padding: 0;
-}*/
 
 .card-image {
   object-fit: cover;
@@ -164,7 +156,7 @@ li {
   margin: auto;
   max-width: 100;
   padding-left: 30px;
-  padding-right:30px;
+  padding-right: 30px;
   padding-top: 30px;
   background-color: $background-gray;
 
@@ -173,8 +165,8 @@ li {
   }
 
   h3 {
-    font-size:smaller;
-    font-weight:bold;
+    font-size: smaller;
+    font-weight: bold;
     color: white;
   }
   p {
@@ -312,5 +304,5 @@ li {
 }
 
 .card-title {
-  font-weight:bold;
+  font-weight: bold;
 }
