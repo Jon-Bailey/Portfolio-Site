@@ -26,19 +26,6 @@
   height: auto;
 }
 
-.page-buttons a {
-  color: white;
-  text-decoration: none;
-}
-
-.page-buttons a:hover {
-  color: #464646;
-}
-
-.page-button {
-  text-align: right;
-}
-
 .main {
   background-color: #ebebeb;
   width: 100;

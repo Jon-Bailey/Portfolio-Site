@@ -28,20 +28,6 @@ $background-gray: rgb(70, 70, 70);
   height: auto;
 }
 
-.page-buttons {
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  a:hover {
-    color: $background-gray;
-  }
-}
-
-.page-button {
-  text-align: right;
-}
-
 .main {
   background-color: rgb(235, 235, 235);
   width: 100;
