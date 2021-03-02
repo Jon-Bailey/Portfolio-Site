@@ -312,6 +312,17 @@ li {
   border-radius: 5px;
 }
 
+.project-link-button {
+  background-color: #464646;
+  color: white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
 #cert-section {
   background-color: white;
   padding: 70px 30px 70px 30px;
@@ -329,7 +340,7 @@ li {
 
 .card-img-top {
   width: 100%;
-  height: 25vh;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-bottom: 1px solid #464646;
