@@ -1,12 +1,7 @@
-let modalBtn = document.querySelector('.modal-btn');
-let modalBg = document.querySelector('.modal-bg');
-let modalClose = document.querySelector('.modal-bg');
+//Eventually make it so there is one project.html file with images and text loaded in dynamically...
+//Right now having something up is better than nothing?
 
-modalBtn.addEventListener('click',function() {
-  modalBg.classList.add('bg-active');
-});
-
-modalClose.addEventListener('click',function() {
-  modalBg.classList.remove('bg-active');
-});
-
+// hero section fade in
+gsap.from('#hero-text', { duration: 1, x:-100 });
+gsap.from('.icons', { duration:1, x:100 });
+//good job gsap, you did it.
