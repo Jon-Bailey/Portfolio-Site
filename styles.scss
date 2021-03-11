@@ -297,7 +297,7 @@ li {
 
   #certificate {
     max-width: 300px;
-    box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.589);
+    box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.3);
   }
 }
 
@@ -309,5 +309,8 @@ li {
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-bottom: 1px solid $background-gray;
+}
+
+.card {
+  box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.3);
 }

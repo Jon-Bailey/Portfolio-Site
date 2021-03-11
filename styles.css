@@ -317,8 +317,8 @@ li {
 
 #cert-section #certificate {
   max-width: 300px;
-  -webkit-box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.589);
-          box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.589);
+  -webkit-box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.3);
+          box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.3);
 }
 
 .card-title {
@@ -330,6 +330,10 @@ li {
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
-  border-bottom: 1px solid #464646;
+}
+
+.card {
+  -webkit-box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.3);
+          box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.3);
 }
 /*# sourceMappingURL=styles.css.map */
