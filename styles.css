@@ -29,8 +29,8 @@
 .main {
   background-color: #ebebeb;
   width: 100;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logos-section {
@@ -314,7 +314,7 @@ li {
 
 #cert-section {
   background-color: white;
-  padding: 70px 30px 70px 30px;
+  padding: 100px 30px 100px 30px;
 }
 
 #cert-section #certificate {
