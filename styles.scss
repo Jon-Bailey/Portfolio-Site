@@ -71,7 +71,8 @@ span {
 }
 
 .heading {
-  color: rgb(124, 124, 124);
+  color: $background-gray;
+  font-weight:bold;
 }
 
 .hero-section {
@@ -278,6 +279,7 @@ li {
   border: none;
   padding: 0.5rem;
   border-radius: 5px;
+  margin-top:1rem;
 }
 
 .project-link-button {
@@ -303,6 +305,7 @@ li {
 
 .card-title {
   font-weight: bold;
+  color:$background-gray;
 }
 
 .card-img-top {

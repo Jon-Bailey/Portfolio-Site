@@ -70,7 +70,8 @@ span img {
 }
 
 .heading {
-  color: #7c7c7c;
+  color: #464646;
+  font-weight: bold;
 }
 
 .hero-section {
@@ -297,6 +298,7 @@ li {
   border: none;
   padding: 0.5rem;
   border-radius: 5px;
+  margin-top: 1rem;
 }
 
 .project-link-button {
@@ -323,6 +325,7 @@ li {
 
 .card-title {
   font-weight: bold;
+  color: #464646;
 }
 
 .card-img-top {
