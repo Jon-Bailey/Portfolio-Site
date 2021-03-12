@@ -72,7 +72,7 @@ span {
 
 .heading {
   color: $background-gray;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .hero-section {
@@ -181,7 +181,7 @@ li {
 #project-photo {
   padding: 0;
   img {
-    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -279,7 +279,7 @@ li {
   border: none;
   padding: 0.5rem;
   border-radius: 5px;
-  margin-top:1rem;
+  margin-top: 1rem;
 }
 
 .project-link-button {
@@ -299,13 +299,13 @@ li {
 
   #certificate {
     max-width: 300px;
-    box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.3);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
 
 .card-title {
   font-weight: bold;
-  color:$background-gray;
+  color: $background-gray;
 }
 
 .card-img-top {
@@ -315,5 +315,5 @@ li {
 }
 
 .card {
-  box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.3);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

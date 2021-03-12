@@ -190,8 +190,8 @@ li {
 }
 
 #project-photo img {
-  -webkit-box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: 100%;
   width: 100%;
   -o-object-fit: contain;
@@ -319,8 +319,8 @@ li {
 
 #cert-section #certificate {
   max-width: 300px;
-  -webkit-box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.3);
-          box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.3);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-title {
@@ -336,7 +336,7 @@ li {
 }
 
 .card {
-  -webkit-box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.3);
-          box-shadow: 4px 4px 4px 1px rgba(70, 70, 70, 0.3);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*# sourceMappingURL=styles.css.map */
