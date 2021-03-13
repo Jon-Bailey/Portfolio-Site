@@ -1,5 +1,5 @@
 * {
-  font-family: "poppins";
+  font-family: "poppins", helvetica, sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -89,7 +89,7 @@ span img {
 #hero-text h1 {
   font-size: 5rem;
   line-height: 90%;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas Neue", helvetica, sans-serif;
 }
 
 #hero-text h3 {
@@ -338,5 +338,26 @@ li {
 .card {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-rows: 300px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px 20px;
+  justify-items: center;
+}
+
+.roys-images {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 300px;
+  min-height: 300px;
+  width: 300px;
+  padding: 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=styles.css.map */
