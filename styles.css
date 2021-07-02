@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 * {
   font-family: "poppins", helvetica, sans-serif;
   margin: 0;
@@ -8,7 +9,7 @@
 
 .background {
   padding: 20px;
-  background-color: #464646;
+  background-color: #363636;
 }
 
 .border-container {
@@ -17,6 +18,14 @@
   background-image: url("img/background-pattern2.png");
   background-repeat: repeat;
   background-size: 20%;
+}
+
+.border-container-home {
+  border-radius: 25px;
+  background-color: white;
+  background-image: url("img/hero-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .project-container {
@@ -34,7 +43,7 @@
 }
 
 p {
-  color: #6b6b6b;
+  color: #363636;
   line-height: 1.5rem;
 }
 
@@ -54,7 +63,7 @@ span img {
 }
 
 .heading {
-  color: #464646;
+  color: #363636;
   font-weight: bold;
 }
 
@@ -70,10 +79,15 @@ span img {
   margin-bottom: 70px;
 }
 
+#hero-text {
+  text-align: center;
+  color: white;
+}
+
 #hero-text h1 {
-  font-size: 5rem;
-  line-height: 90%;
-  font-family: "Bebas Neue", helvetica, sans-serif;
+  font-size: 4rem;
+  line-height: 95%;
+  font-family: 'DM Serif Display', serif;
 }
 
 #hero-text h2 {
@@ -140,7 +154,7 @@ li a:hover {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
-  background-color: #464646;
+  background-color: #363636;
 }
 
 .footer ul {
@@ -198,7 +212,13 @@ li {
   max-height: 50px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1100px) {
+  .border-container-home {
+    background-size: 250%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
   #navigation {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -208,12 +228,11 @@ li {
             justify-content: center;
   }
   #hero-text h1 {
-    font-size: 3rem;
-    text-align: center;
+    font-size: 2rem;
   }
-  #hero-text h3 {
-    font-size: 1.25rem;
-    text-align: center;
+  #hero-text h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
   }
   #logos {
     max-width: 300px;
@@ -249,14 +268,18 @@ li {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .border-container-home {
+    background-size: 250%;
+  }
 }
 
 #contact-button {
-  background-color: #16ce78;
-  color: white;
+  background-color: white;
+  color: #0b1520;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  margin-right: 10px;
 }
 
 #contact-button:hover {
@@ -269,8 +292,8 @@ li {
 }
 
 #resume-button {
-  color: #464646;
-  border: 1px solid #464646;
+  color: white;
+  border: 1px solid white;
   border: radius 10;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -322,7 +345,7 @@ button:hover {
 }
 
 .project-link-button {
-  background-color: #464646;
+  background-color: #363636;
   color: white;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -347,7 +370,7 @@ button:hover {
 
 .card-title {
   font-weight: bold;
-  color: #464646;
+  color: #0b1520;
 }
 
 .card-img-top {
