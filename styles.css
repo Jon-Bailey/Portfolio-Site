@@ -65,6 +65,8 @@ span img {
 .heading {
   color: #363636;
   font-weight: bold;
+  font-family: 'DM Serif Display', serif;
+  letter-spacing: .13rem;
 }
 
 .hero-section {
