@@ -15,7 +15,6 @@
 .border-container {
   border-radius: 25px;
   background-color: white;
-  background-image: url("img/background-pattern2.png");
   background-repeat: repeat;
   background-size: 20%;
 }
