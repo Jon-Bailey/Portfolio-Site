@@ -12,11 +12,6 @@ $dark-blue: rgb(11, 21, 32);
   box-sizing: border-box;
 }
 
-.background {
-  padding: 20px;
-  background-color: $background-gray;
-}
-
 .border-container {
   border-radius: 25px;
   background-color: white;
@@ -25,7 +20,7 @@ $dark-blue: rgb(11, 21, 32);
 }
 
 .border-container-home {
-  border-radius: 25px;
+  //border-radius: 25px;
   background-color: white;
   background-image: url("img/hero-background.jpg");
   background-repeat: no-repeat;
@@ -126,7 +121,7 @@ nav {
   background-color: white;
   //box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.1);
   border-bottom: 1.5px solid rgb(70, 70, 70);
-  border-radius: 25px 25px 0 0;
+  //border-radius: 25px 25px 0 0;
 
   .container-fluid {
     margin-bottom: 10px;
@@ -154,9 +149,7 @@ li {
   color: rgb(138, 138, 138);
   margin: auto;
   max-width: 100;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
+  padding: 40px;
   background-color: $background-gray;
 
   ul {
@@ -236,9 +229,6 @@ li {
   #logos {
     max-width: 300px;
     margin-bottom: 40px;
-  }
-  .background {
-    padding: 10px;
   }
   .icons {
     margin-top: 60px;
